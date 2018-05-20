@@ -1,0 +1,512 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+p {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+}
+li , a {
+	text-decoration: none;
+	list-style: none;
+	/*display: inline-block;*/
+}
+a:hover {
+	text-decoration: none;
+}
+h1 , h2 {
+	margin-top: 0;
+}
+ul {
+	padding: 0;
+}
+body {
+	scroll-behavior: smooth;
+}
+.top-header-style {
+	font-family: 'Montserrat';
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	
+}
+/*************************DEFAULT********************/
+
+.text-center {
+	text-align: center;
+}
+.title-style {
+  	font-size: 32px;
+  	font-family: "Roboto";
+  	color: rgb(15, 95, 92);
+	margin-bottom: 40px;
+	font-weight: 400;
+
+}
+.dics-style {
+	font-family: "Roboto";
+	font-size: 14px;
+	font-weight: 500;
+	color: rgb(131, 167, 165);
+	line-height: 1.571;
+}
+.btn-style {
+	font-family: 'Montserrat';
+	font-size: 14px !important;
+	padding: 18px 40px !important;
+	background-color: #6fb048;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700 !important;
+	display: inline-block;	
+	border: 0;
+	border-radius: 0 !important;
+}
+.btn-style:hover {
+	background-color: #83a7a5;
+	color: #fff;
+	text-decoration: none;
+}
+.adv-title-style {
+	font-size: 16px;
+	color: #0f5f5c;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+/*************************STYLES********************/
+/*************************HEADER********************/
+.top-header {
+	font-family: 'Montserrat';
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+}
+.top-header-wrapper {
+	background-image: url("../img/main.jpg");
+  	height: 100%;
+  	width: 100%;
+}
+.header-overlay {
+	background-color: rgb(45, 110, 112, 0.902);
+  	height: 100%;
+  	width: 100%;
+}
+.top-logo {
+	vertical-align: text-bottom;
+    line-height: 28px;
+    text-transform: uppercase;
+	font-family: "Proxima Nova";
+	font-size: 29px !important;
+	font-weight: bold;
+	color: #fff;
+}
+.top-logo:hover {
+	color: #cfd3d3;
+}
+.vertical-line {
+	vertical-align: text-bottom;
+	line-height: 33px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.phone-icon {
+	vertical-align: text-bottom;
+	line-height: 33px;
+	
+}
+.phone-number {
+	vertical-align: text-bottom;
+	line-height: 33px;
+}
+a.phone-number-link {
+	color: #cfd3d3;
+	font-size: 15px;
+	font-weight: 400;
+}
+a.phone-number-link:hover {
+	color: #fff;	
+	text-decoration: none;
+}
+.nav {
+	margin-top: 6px;
+
+}
+.phone-img {
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+a.phone-link {
+	color: #cfd3d3;
+	font-size: 15px;
+	vertical-align: middle;
+	line-height: 10px;
+}
+a.phone-link:hover {
+	color: #fff;
+	text-decoration: none;
+}
+a.top-links {
+	margin-right: 15px;
+	color: #cfd3d3  ;
+}
+a.top-links:hover {
+	color: #fff ;
+	text-decoration: none;
+}
+a.top-last-link {
+	background-color: rgb(255, 255, 255, 0.349);
+	border-radius: 2px;
+	width: 120px;
+	height: 33px;
+	line-height: 22px;
+	text-align: center;
+	padding: 5px;
+	vertical-align: middle;
+	color: #fff !important;
+}
+a.top-last-link:hover {
+	color: #cfd3d3 !important;
+}
+.mid-header {
+	margin-top: 200px;
+	color: #fff;
+}
+.header-title {
+	margin-bottom: 20px;
+}
+.header-discription {
+	line-height: 25px;
+}
+.header-btn {
+	margin-top: 20px;
+	margin-bottom: 150px;
+	
+}
+/*************************ADVENTAGE***************/
+.adventage {
+	margin-top: 100px;
+}
+.adventage-discription {
+	margin-bottom: 70px;
+}
+.adventage-title {
+	/*position: relative;*/
+}
+/*.adventage-title:before {
+	position: absolute;
+	top: 53px;
+	left: 235px;
+	width: 65px;
+	border-bottom: 1px solid #6fb048;
+	content: "";
+}*/
+.big-adv {
+	margin-bottom: 25px;
+	height: 56px;
+}
+.big-adv-discription {
+	margin-bottom: 160px;
+}
+.adventage-sm-item {
+	text-align: left;
+}
+.adv-item-title {
+	margin-bottom: 20px;
+	height: 42px;
+	line-height: 42px;
+}
+.adv-item-discription {
+	margin-bottom: 60px;
+}
+.sm-adv-img {
+	margin-right: 20px;
+}
+/*********************TEMPLATE****************/
+.template {
+	margin-top: 160px;
+	background-color: #eef1ec;
+	height: 100%;
+	width: 100%;
+}
+.template-title {
+	margin-top: 75px;
+	/*position: relative;*/
+}
+/*.template-title:before {
+	position: absolute;
+	top: 59px;
+	left: 335px;
+	width: 65px;
+	border-bottom: 1px solid #6fb048;
+	content: "";
+}*/
+.template-discription {
+	margin-bottom: 25px;
+}
+.arm-title {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.arm-discription {
+	margin-bottom: 20px;
+}
+.arm-adv-img {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.arm-block {
+	margin-bottom: 100px;
+}
+/**************************REVIEWS****************/
+.reviews {
+	margin-top: 140px;
+}
+.reviews-text {
+	margin-top: 80px;
+	font-size: 22px;
+  	font-family: "Merriweather Light";
+  	color: rgb(131, 167, 165);
+  	line-height: 1.818;
+  	margin-bottom: 30px;
+}
+.review-name {
+	font-size: 14px;
+  	font-family: "Roboto";
+  	color: rgb(111, 176, 72);
+  	line-height: 1.571;
+  	font-weight: 700;
+}
+.review-author {
+	font-size: 14px;
+  	font-family: "Roboto";
+	color: #83a7a5;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+/************************MAP*********************/
+.map {
+	background-image: url(../img/map-bg.jpg);
+	margin-top: 140px;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+.map-title {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.map-discription {
+	margin-bottom: 120px;
+}
+/**********************PRICE*******************/
+.price-title {
+	margin-top: 80px;
+}
+.price-discription {
+	margin-bottom: 40px;
+}
+.price-item {
+	border: 1px solid rgb(193, 211, 210);
+}
+.price-item-name {
+	font-size: 15px;
+	color: rgb(111, 176, 72);
+	text-transform: uppercase;
+  	line-height: 1.333;
+  	font-weight: 700;
+  	font-family: "Roboto";
+  	margin-top: 29px;
+  	margin-bottom: 25px;
+}
+.price-item-cost {
+  	font-size: 65px;
+  	font-family: "Montserrat";
+  	color: rgb(15, 95, 92);
+  	line-height: 1.661;
+  	height: 85px;
+}
+.month {
+	font-size: 14px;
+	font-family: "Montserrat";
+	color: rgb(15, 95, 92);
+	margin-bottom: 20px;
+}
+.price-item-discription {
+	font-size: 14px;
+  	font-family: "Roboto";
+  	color: rgb(131, 167, 165);
+  	line-height: 2;
+  	margin-bottom: 25px;
+}
+.price-btn {
+	margin-bottom: 30px;
+}
+.price-mid {
+	margin-top: 75px;
+}
+.price-mid-img {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	
+}
+.price-bottom {
+	margin-top: 60px;
+}
+.price-bottom-title {
+ 	font-size: 32px;
+  	font-family: "Roboto";
+  	color: rgb(111, 176, 72);
+  	line-height: 0.625;
+  	margin-top: 15px;
+  	margin-bottom: 40px;
+}
+.price-bottom-discription {
+	margin-bottom: 40px;
+}
+.price-bottom-mail {
+	font-size: 18px;
+  	font-family: "Roboto";
+  	color: rgb(15, 95, 92);
+  	line-height: 1.111;
+  	font-weight: 500;
+}
+.price-bottom-mail:hover {
+	text-decoration: none;
+	color: #6fb048;
+}
+/*************************DOWNLOAD***************/
+.download {
+	margin-top: 100px;
+	background-image: url(../img/download.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+.download-title {
+	margin-top: 60px;
+	margin-bottom: 0px;
+}
+.download-btn {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+/*************************FOOTER*****************/
+.footer-top {
+	margin-top: 100px;
+}
+.footer-logo {
+	color: rgb(15, 95, 92);
+	font-size: 22px;
+	text-transform: uppercase;
+    font-family: "Proxima Nova";
+    font-weight: bold;
+		
+}
+.footer-item {
+	color: #83a7a5;
+	line-height: 30px;
+}
+a.footer-links {
+	color: #83a7a5;
+}
+.footer-links:hover {
+	text-decoration: none;
+	color: #6fb048;
+}
+.logo-col {
+	margin-top: 12px;
+}
+.footer-mail {
+	color: #0f5f5c;
+	font-weight: 500;
+}
+.footer-mail:hover {
+	color: #6fb048;
+	text-decoration: none;
+}
+.footer-phone {
+	color: #83a7a5;
+}
+.footer-phone:hover {
+	color: #6fb048;
+	text-decoration: none;
+}
+.footer-form {
+	margin-top: 20px;
+	background-color: #eef1ec;
+	border-radius: 3px;
+}
+.footer-input {
+	border: 0;
+	outline: none;
+	background-color: #eef1ec;
+	padding-left: 15px;
+	width: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.footer-form-btn {
+	border: 0;
+	background-color: #eef1ec;
+	margin-left: 15px;
+	height: 26px;
+	line-height: 38px;
+	vertical-align: top;
+	
+}
+.footer-bottom {
+	margin-top: 66px;
+}
+.footer-copirate {
+	margin: 27px 0;
+}
+.soc-btn-wrapper {
+	margin-top: 15px;
+	font-size: 20px;
+	text-align: right;
+	margin-bottom: 15px;
+}
+.soc-btn {
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 44px;
+	height: 44px;
+	line-height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	border: 1px solid;
+	color: #fff;
+}
+a.soc-btn:hover {
+	color: #6fb048;
+	text-decoration: none;
+}
+.twitter {
+	background-color: #55acee;
+	border-color: #55acee;
+}
+.facebook {
+	background-color: #3b5998;
+	border-color: #3b5998;
+}
+.insta {
+	background-color: #3f729b;
+	border-color: #3f729b;
+}
+.dribble {
+	background-color: #ea4c89;
+	border-color: #ea4c89;
+}
+.git {
+	background-color: #333333;
+	border-color: #333333;
+}
