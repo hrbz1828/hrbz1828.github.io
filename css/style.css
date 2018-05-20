@@ -56,13 +56,15 @@ body {
 }
 .btn-style {
 	font-family: 'Montserrat';
-	font-size: 14px;
-	padding: 18px 40px;
+	font-size: 14px !important;
+	padding: 18px 40px !important;
 	background-color: #6fb048;
 	text-transform: uppercase;
 	color: #fff;
-	font-weight: 700;
+	font-weight: 700 !important;
 	display: inline-block;	
+	border: 0;
+	border-radius: 0 !important;
 }
 .btn-style:hover {
 	background-color: #83a7a5;
@@ -78,8 +80,6 @@ body {
 /*************************STYLES********************/
 /*************************HEADER********************/
 .top-header {
-	padding-top: px;
-	padding-bottom: px;
 	font-family: 'Montserrat';
 	font-size: 13px;
 	font-weight: 400;
@@ -416,6 +416,10 @@ a.top-last-link:hover {
 a.footer-links {
 	color: #83a7a5;
 }
+.footer-links:hover {
+	text-decoration: none;
+	color: #6fb048;
+}
 .logo-col {
 	margin-top: 12px;
 }
@@ -482,8 +486,9 @@ a.footer-links {
 	border: 1px solid;
 	color: #fff;
 }
-.soc-btn:hover {
+a.soc-btn:hover {
 	color: #6fb048;
+	text-decoration: none;
 }
 .twitter {
 	background-color: #55acee;
